@@ -56,19 +56,34 @@ body {
 
 /* web selector */
 .content-box {
-  width: 250px;
-  margin: 20px auto;
-  padding: 0;
+  width: 280px;
+  margin: 54px;
+  padding: 0px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .app-holder {
-  margin: 20px auto;
-  padding: 0px;
+  padding: 15px;
+  margin: 0px;
 }
 
 .app-container {
-  padding: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
   list-style-type: none;
+  background-color: rgba(211, 211, 211, 0.301);
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.image-container {
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.app-holder :hover {
+  background-color: grey;
 }
