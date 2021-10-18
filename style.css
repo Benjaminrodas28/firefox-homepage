@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  width: 100%;
 }
 
 .container-of-logo-and-search-bar {
@@ -56,34 +57,62 @@ body {
 
 /* web selector */
 .content-box {
-  width: 280px;
-  margin: 54px;
-  padding: 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin: 20px;
+  justify-content: center;
 }
 
 .app-holder {
-  padding: 15px;
-  margin: 0px;
+  padding: 10px;
+  margin: 0 5px 0 5px;
 }
 
 .app-container {
-  width: 40px;
-  height: 40px;
-  text-align: center;
   list-style-type: none;
+  padding: 30px 20px 30px 20px;
   background-color: rgba(211, 211, 211, 0.301);
-  border-radius: 5px;
-  padding: 25px;
+  border-radius: 10px;
 }
 
 .image-container {
+  width: 100%;
   cursor: pointer;
-  padding-top: 10px;
 }
 
 .app-holder :hover {
   background-color: grey;
+}
+
+@media only screen and (min-width: 499px) {
+  .content-box {
+    /* width: 100px; */
+    padding: 0px 80px;
+    margin: 20px 0px;
+  }
+}
+
+@media only screen and (min-width: 490px) {
+  .content-box {
+    padding: 0px 60px;
+    margin: 20px 0px;
+  }
+}
+
+@media only screen and (min-width: 575px) {
+  .content-box {
+    padding: 0px 110px;
+    margin: 20px 0px;
+  }
+}
+
+@media only screen and (min-width: 675px) {
+  .content-box {
+    padding: 0px 130px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .content-box {
+    padding: 0;
+  }
 }
